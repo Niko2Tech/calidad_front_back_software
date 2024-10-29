@@ -1,0 +1,35 @@
+# .gitignore para Django (backend)
+backend/env/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/media/
+backend/staticfiles/
+backend/api/migrations/
+
+# Archivos y carpetas de entorno virtual
+env/
+venv/
+ENV/
+.venv/
+.env
+*.env
+
+# .gitignore para Node.js (Vue frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.nuxt
+frontend/.output
+frontend/logs
+frontend/pids
+frontend*.log
+frontend*.pid
+
+# Archivos comunes de Visual Studio Code
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+.idea/
